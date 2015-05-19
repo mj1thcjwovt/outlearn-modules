@@ -1,0 +1,26 @@
+{
+  "olpVersion" : "0.5",
+
+  "paths" : [
+    {
+      "name" : "my-outlearn-path",
+      "title" : "Get Started with Your Path in 5 Minutes",
+      "description" : "Get your hands dirty and create your first path",
+      "privacy" : "public",
+      "pages" : [
+        {"page" : "./pages/welcome.md"},
+        {"module" : "my-outlearn-module"},
+        {"page" : "./pages/closing.md"}
+      ]
+    }
+  ],
+
+  "modules" : [
+    {
+      "olm" : "./modules/my-outlearn-module.md"
+    }
+  ],
+
+  "assets" : [
+  ]
+}
