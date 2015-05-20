@@ -89,18 +89,22 @@ The best way for you to test path creation is to see your changes in real time o
 
 ### Pages and Modules
 
-Now that you've laid out what your path is all about, it's time to get some content in it. Paths are made up of two basic components: pages and modules. The modules are the building blocks of a path. You might write them all yourself or you can include modules written by others. Each module should be self-contained so that it can be easily reused and reordered for other paths. To balance out the independence of the modules, you can put in pages. Pages are the glue that holds the modules together. They let you add in more of your own personality. Pages are specific to a path so you can talk about why you chose the modules you did, how they fit together, what parts are super important, etc.
+Now that you've laid out what your path is all about, it's time to get some content in it. Paths are made up of two basic components: pages and modules. The modules are the building blocks of a path. You might write them all yourself or you can include modules written by others. An ideal module is self-contained so that it can be easily reused and reordered for other paths.
+
+To balance out the independence of the modules, you can put in pages. Pages are the glue that holds the modules together. They let you add in more of your own personality. Pages are specific to a path so you can talk about why you chose the modules you did, how they fit together, what parts are super important, etc.
 
 
 ### Outlearn Uses Markdown
 
-We wanted to have an authoring experience that integrates seamlessly with GitHub and is easy as well as expressive. We think Markdown hits a great balance between those goals. You can read the [official Markdown Syntax](http://daringfireball.net/projects/markdown/syntax) for more details. Outlearn also supports all the extensions of [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). If you already have your content in Markdown, importing it to Outlearn is a breeze.
+We wanted to have an authoring experience that integrates seamlessly with GitHub and is easy as well as expressive. We think Markdown hits a great balance between those goals. You can read the official [Markdown Syntax](http://daringfireball.net/projects/markdown/syntax) for more details. Outlearn also supports all the extensions of [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). If you already have your content in Markdown, importing it to Outlearn is a breeze.
 
 ### Your First Content Edits
 
 By now you are probably itching to get to publish something you actually wrote. Go ahead and edit the file `welcome.md` in the `pages` directory. You can replace everything there with your very own "Hello World" message, or something else that inspires you! The pages are written in markdown so feel free to try out some formatting as well.
 
-Now go back to the [Import Content](https://demo.outlearn.com/import/github) section on Outlearn, click on the nickname and then click "Re-Import". If you still have your path open, refresh your browser and you can see your edits. Or navigate to it same way as above. Houston, we have a lift-off! This is where the official 5-minute path publishing count stops. Hopefully you've seen enough of the power of Outlearn paths to keep on going to put some real content into your path.
+Now go back to the [Import Content](https://demo.outlearn.com/import/github) section on Outlearn, click on the nickname and then click "Re-Import". If you still have your path open, refresh your browser and you can see your edits. Or navigate to it same way as above. Houston, we have a lift-off!
+
+Now you know how to get a Hello World path up in less than 5-minutes. Hopefully you've seen enough of the power of Outlearn paths to keep reading the rest of this module to put some real content into your path.
 
 <!-- @section -->
 
@@ -110,10 +114,10 @@ Now go back to the [Import Content](https://demo.outlearn.com/import/github) sec
 
 The meat of the path is in the modules. Once you have written some new markdown or repurposed older content, this is how you make it part of your path:
 
-* Open the `my-outlearn-module.md` file in the `modules` directory
+* Open the `my-outlearn-module.md` file in the `modules` directory.
 * Update the metadata at the beginning of the file, including a new name for the module, e.g. `awesome-first-module`.
-* Add your markdown content to the file
-* Save your file with a new name, we recommend using the module name also as file name, e.g. `awesome-first-module.md`
+* Add your markdown content to the file under the first section.
+* Save your file with a new name. We recommend using the module name also as the file name, e.g. `awesome-first-module.md`.
 * Edit `outlearn.json` and replace `{"module" : "my-outlearn-module"}` with `{"module" : "awesome-first-module"}`. This tells the path where the module belongs.  
 * Declare the module in the `modules` section in `outlearn.json` by replacing `"olm" : "./modules/my-outlearn-module.md"` with `"olm" : "./modules/awesome-first-module.md"`. This tells Outlearn where the source file for the module is.
 
@@ -171,7 +175,7 @@ You can add videos with the following annotations:
 
 ### Adding Sections
 
-The simplest way to enhance your content is to divide it into sections. Each module can have one or more sections that also show up on the side of the content and serve as a handy table of contents. They can also be checked off as completed and help learners and path creators see what progress has taken place.
+The simplest way to enhance your content is to divide it into sections. Each module can have one or more sections. A list of sections shows up on tge right side of the content and serves as a navigable table of contents. Sections can also be checked off as completed in order to help learners and path creators to keep track of progress.
 
 You create a section by adding the following annotation:
 
@@ -187,12 +191,12 @@ Alternatively, you can leave out the "title" attribute and the platform will tak
 ## Getting Started
 ```
 
-This can be especially helpful when you just quickly want to add sections to an existing markdown file and also makes the file render more nicely on GitHub.
+This can be especially helpful when you just want to add sections quickly to an existing markdown file and it also makes the file render more nicely on GitHub.
 
 
 ### Add Tasks, Links
 
-Nothing kills learner motivation like hours of watching videos and reading without a way to try it out yourself. Great teachers push the learners to put their learning to practice. The easiest way to create meaningful interactions with the learners on Outlearn is to add tasks, some of which may contain deliverables. A task can be as simple as "Run make in your project directory" or more involved such as "Download this library and compile it in your system." With deliverables, you get even more flexibility. For example, you can ask learners to "Fork the project repo on GitHub, add in your function and send a pull request to the original repo. Paste the url to the pull request below." Path authors and organization admins can see which tasks have been done and what learners have submitted. They can then organize further activities such as code reviews.
+Nothing kills learner motivation like hours of reading and watching videos without a way to try it out yourself. Great teachers push the learners to put new knowledge to practice. The easiest way to create meaningful interactions with the learners on Outlearn is to add tasks, some of which may contain deliverables. A task can be as simple as "Run `make` in your project directory" or more involved such as "Download the library and compile it in your system." With deliverables, you get even more flexibility. For example, you can ask learners to "Fork the project repo on GitHub, add in your function and send a pull request to the original repo. Paste the URL to the pull request below." Path authors and organization admins can see which tasks have been done and what learners have submitted. They can then organize further activities such as code reviews.
 
 To add a task:
 ```markdown
