@@ -13,11 +13,11 @@
 
 <!-- @section -->
 
-## How Fast Can You Publish?
+## Create Your First Path
 
 ### Viewing This on GitHub?
 
-If you are viewing this on GitHub and want to get the full experience, check out the Outlearn Path [Publishing Great Learning Content](https://demo.outlearn.com/learn/outlearn/outlearn-publishing).
+If you are viewing this on GitHub and want to get the full experience, check out [Publishing Great Learning Content](https://demo.outlearn.com/learn/outlearn/outlearn-publishing) on Outlearn.
 
 
 ### Fork the Repo
@@ -53,29 +53,29 @@ Your relevant part of your file should look like this:
 ],
 ```
 
-<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Update path metadata\"}"-->
+<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Update path metadata and push the changes to GitHub.\"}"-->
 
 <!-- @section -->
 
 ## Create an Outlearn Account and Publish Your Path
 
-The best way for you to test out path creation on Outlearn is to see your changes in real time on outlearn. First, [create an Outlearn account using your GitHub account](https://demo.outlearn.com/auth/join). Click the button "Join With GitHub". You need to link Outlearn with GitHub so you can publish your content. GitHub will asks for your permission using a popup like the one below.
+The best way for you to test path creation is to see your changes in real time on Outlearn. This section will show you how to do that.
 
-![GitHub sign-in popup](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/authorize.png)
+1. [Click here to create an Outlearn account](https://demo.outlearn.com/auth/join) using your GitHub credentials. Click "Join With GitHub" so that Outlearn can access and publish your GitHub content. GitHub will ask for your permission using a popup like the one below.
 
+    ![GitHub sign-in popup](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/authorize.png)
 <!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Create an Outlearn account\"}"-->
+2. Choose [Import Content](https://demo.outlearn.com/import/github) from the menu in the top right corner under the user icon.
 
-Once you are signed up, choose [Import Content](https://demo.outlearn.com/import/github) from the menu in the top right corner under the user icon.
+  ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/import.png)
 
-![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/import.png)
+3. Add a GitHub Integration and choose "outlearn-modules" as the repository. Write a nickname such as "Outlearn Modules" and import the repository.
 
-Click "Add GitHub Integration" and choose "outlearn-modules" as the repository. Write a Nickname such as "Outlearn Modules" and click "Import Repository."
+ ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/choose-repo.png)
 
-![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/choose-repo.png)
+4. You should now see the nickname of your integration under your GitHub Integrations. Click on the the name, then click on the green check under Import History. You will see the imported paths and modules. Click on the path and you will see your first very own Outlearn path. Congratulations!
 
-You should now see "Outlearn Modules" under your "GitHub Integrations". Click on the it and then click on the green check under "Import History." You will see the imported paths and modules. Click on the path and you will see your first very own Outlearn path. Congratulations!
-
-![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/import-history.png)
+  ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/import-history.png)
 
 <!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Publish your first path!\"}"-->
 
