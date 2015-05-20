@@ -64,6 +64,7 @@ The best way for you to test path creation is to see your changes in real time o
 1. [Click here to create an Outlearn account](https://demo.outlearn.com/auth/join)
     using your GitHub credentials. Click "Join With GitHub" so that Outlearn can access and publish your GitHub content. GitHub will ask for your permission using a popup like the one below.
     ![GitHub sign-in popup](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/authorize.png)
+    <!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Create an Outlearn account\"}"-->
 2. Choose [Import Content](https://demo.outlearn.com/import/github)
     from the menu in the top right corner under the user icon.
     ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/import.png)
