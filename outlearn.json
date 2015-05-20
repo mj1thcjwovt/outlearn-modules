@@ -4,8 +4,8 @@
   "paths" : [
     {
       "name" : "my-outlearn-path",
-      "title" : "Get Started with Your Path in 5 Minutes",
-      "description" : "Get your hands dirty and create your first path",
+      "title" : "My First Outlearn Path",
+      "description" : "Fastest Way to Publish a Path",
       "privacy" : "public",
       "pages" : [
         {"page" : "./pages/welcome.md"},
