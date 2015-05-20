@@ -30,7 +30,7 @@ Once you have forked the repository, open up `outlearn.json` found at the root o
 
 
 | Field | Description                                            |
-| ----- | ------------------------------------------------------ |
+|: ----- |: ------------------------------------------------------ |
 | name  | used for the database, must be unique for your user account or organization |
 | title | shown at the top of path cards                         |
 | description | shown on the path card as additional information |
