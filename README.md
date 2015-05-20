@@ -61,25 +61,34 @@ Your relevant part of your file should look like this:
 
 The best way for you to test path creation is to see your changes in real time on Outlearn. This section will show you how to do that.
 
-* [Click here to create an Outlearn account](https://demo.outlearn.com/auth/join)
-    using your GitHub credentials. Click "Join With GitHub" so that Outlearn can access and publish your GitHub content. GitHub will ask for your permission using a popup like the one below.
-    ![GitHub sign-in popup](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/authorize.png)
-    <!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Create an Outlearn account\"}"-->
-* Choose [Import Content](https://demo.outlearn.com/import/github)
-    from the menu in the top right corner under the user icon.
-    ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/import.png)
-* Add a GitHub Integration and choose "outlearn-modules"
-    as the repository. Write a nickname such as
-    "Outlearn Modules" and import the repository.
-    ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/choose-repo.png)
-    <!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Import your repository\"}"-->
-* You should now see the nickname of your integration
-    under your GitHub Integrations. Click on the the name,
-    then click on the green check under Import History. You
-    will see the imported paths and modules. Click on the
-    path and you will see your first very own Outlearn path.
-    Congratulations!
-    ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/import-history.png)
+[Click here to create an Outlearn account](https://demo.outlearn.com/auth/join)
+using your GitHub credentials. Click "Join With GitHub" so that Outlearn can access and publish your GitHub content. GitHub will ask for your permission using a popup like the one below.
+
+![GitHub sign-in popup](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/authorize.png)
+
+<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Create an Outlearn account\"}"-->
+
+Choose [Import Content](https://demo.outlearn.com/import/github)
+from the menu in the top right corner under the user icon.
+
+![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/import.png)
+
+Add a GitHub Integration and choose "outlearn-modules"
+as the repository. Write a nickname such as
+"Outlearn Modules" and import the repository.
+
+![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/choose-repo.png)
+
+<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Import your repository\"}"-->
+
+You should now see the nickname of your integration
+under your GitHub Integrations. Click on the the name,
+then click on the green check under Import History. You
+will see the imported paths and modules. Click on the
+path and you will see your first very own Outlearn path.
+Congratulations!
+
+![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/import-history.png)
 
 
 
@@ -199,19 +208,22 @@ This can be especially helpful when you just want to add sections quickly to an 
 Nothing kills learner motivation like hours of reading and watching videos without a way to try it out yourself. Great teachers push the learners to put new knowledge to practice. The easiest way to create meaningful interactions with the learners on Outlearn is to add tasks, some of which may contain deliverables. A task can be as simple as "Run `make` in your project directory" or more involved such as "Download the library and compile it in your system." With deliverables, you get even more flexibility. For example, you can ask learners to "Fork the project repo on GitHub, add in your function and send a pull request to the original repo. Paste the URL to the pull request below." Path authors and organization admins can see which tasks have been done and what learners have submitted. They can then organize further activities such as code reviews.
 
 To add a task:
+
 ```markdown
 < !-- @todo, "task" : "Run the above code example on your own machine."-->
 ```
 
 If you also want to add a deliverable:
+
 ```markdown
 < !-- @todo, "deliverable" : true, "task" : "Fork the repository above, fix the broken test, and submit a URL for your pull-request."-->
 ```
 
 For an external link that gets unfurled inside the platform:
+
 ```markdown
 < !-- @link, "url" : "https://nodejs.org/", "task": "Install NodeJS" -->
-111
+```
 
 ### Add Cover Images
 
