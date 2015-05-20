@@ -228,6 +228,7 @@ For an external link that gets unfurled inside the platform:
 ### Add Cover Images
 
 Each module in the path can have a cover image that's a visual representation of the path or module. You add them in the header with a line:
+
 ```markdown
 "coverImage" : "http://www.publicdomainpictures.net/pictures/70000/velka/abstract-party-lights.jpg",
 ```
