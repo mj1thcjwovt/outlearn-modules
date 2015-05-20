@@ -17,22 +17,22 @@
 
 ### Viewing This on GitHub?
 
-If you are viewing this on GitHub and want to get the full experience, check out the enhanced version of [Path Building Quick Start](https://demo.outlearn.com/learn/outlearn/my-outlearn-path) on Outlearn.com.
+If you are viewing this on GitHub and want to get the full experience, check out the Outlearn Path [Publishing Great Learning Content](https://demo.outlearn.com/learn/outlearn/outlearn-publishing).
 
 
 ### Fork the Repo
 
-We know you are busy and would rather focus on writing awesome content than setting up directory structures and choosing naming conventions. Never worry, you'll be all set with our [outlearn-modules](https://github.com/outlearn-content/outlearn-modules) GitHub repository. Your first step is to fork this repo. If you need a refresher on forking, check out GitHub's guide on [Forking Projects](https://guides.github.com/activities/forking/). They also have other handy [guides](https://guides.github.com).
+We know you are busy and would rather focus on writing awesome content than setting up directory structures and choosing naming conventions. Never worry, you'll be all set with our [outlearn-modules](https://github.com/outlearn-content/outlearn-modules) GitHub repository. Your first step is to fork this repo. If you need a refresher on forking, check out GitHub's guide on [forking projects](https://guides.github.com/activities/forking/). They also have other handy [guides](https://guides.github.com).
 
 <!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Fork the outlearn-modules repository. \"}"-->
 
 Once you have forked the repository, open up `outlearn.json` found at the root of the repo. Update the following path metadata fields in the file:
 
 
-| Field | Description |
-| ----- | ----------- |
-| name | used for the database, must be unique for your user account or organization |
-| title | shown at the top of path cards |
+| Field | Description                                            |
+| ----- | ------------------------------------------------------ |
+| name  | used for the database, must be unique for your user account or organization |
+| title | shown at the top of path cards                         |
 | description | shown on the path card as additional information |
 
 Your relevant part of your file should look like this:
@@ -61,21 +61,21 @@ Your relevant part of your file should look like this:
 
 The best way for you to test out path creation on Outlearn is to see your changes in real time on outlearn. First, [create an Outlearn account using your GitHub account](https://demo.outlearn.com/auth/join). Click the button "Join With GitHub". You need to link Outlearn with GitHub so you can publish your content. GitHub will asks for your permission using a popup like the one below.
 
-![GitHub sign-in popup](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/authorize.png)
+![GitHub sign-in popup](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/authorize.png)
 
 <!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Create an Outlearn account\"}"-->
 
 Once you are signed up, choose [Import Content](https://demo.outlearn.com/import/github) from the menu in the top right corner under the user icon.
 
-![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/import.png)
+![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/import.png)
 
 Click "Add GitHub Integration" and choose "outlearn-modules" as the repository. Write a Nickname such as "Outlearn Modules" and click "Import Repository."
 
-![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/choose-repo.png)
+![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/choose-repo.png)
 
 You should now see "Outlearn Modules" under your "GitHub Integrations". Click on the it and then click on the green check under "Import History." You will see the imported paths and modules. Click on the path and you will see your first very own Outlearn path. Congratulations!
 
-![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/import-history.png)
+![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/import-history.png)
 
 <!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Publish your first path!\"}"-->
 
