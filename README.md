@@ -26,7 +26,7 @@ If you are viewing this on GitHub and want to get the full experience, check out
 
 We know you are busy and would rather focus on writing awesome content than setting up directory structures and choosing naming conventions. Never worry, you'll be all set with our [outlearn-modules](https://github.com/outlearn-content/outlearn-modules) GitHub repository. Your first step is to fork this repo. If you need a refresher on forking, check out GitHub's guide on [forking projects](https://guides.github.com/activities/forking/). They also have other handy [guides](https://guides.github.com).
 
-<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Fork the outlearn-modules repository. \"}"-->
+<!-- @task, "content" : "Fork the outlearn-modules repository."-->
 
 Once you have forked the repository, open up `outlearn.json` found at the root of the repo. Update the following path metadata fields in the file:
 
