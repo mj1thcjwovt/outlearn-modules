@@ -7,7 +7,9 @@
 "homepage" : "https://github.com/outlearn-content/outlearn-modules",
 "coverImage" : "http://www.publicdomainpictures.net/pictures/70000/velka/abstract-party-lights.jpg",
 "freshnessDate" : 2015-05-18,
-"license" : "CC BY 4.0"
+"author" : "Teppo Jouttenus",
+"license" : "CC BY 4.0",
+"contact" : {"email" : "teppo@outlearn.com"}
 }
 -->
 
