@@ -96,7 +96,7 @@ Congratulations!
 
 <!-- @section -->
 
-## Hello World
+## Say Hello!
 
 ### Pages and Modules
 
