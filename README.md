@@ -17,7 +17,7 @@
 
 ### Viewing This on GitHub?
 
-If you are viewing this on GitHub and want to get the full experience, check out [Publishing Great Learning Content](https://demo.outlearn.com/learn/outlearn/outlearn-publishing) on Outlearn.
+If you are viewing this on GitHub and want to get the full experience, check out [Publishing Great Learning Content](https://pilot.outlearn.com/learn/outlearn/outlearn-publishing) on Outlearn.
 
 
 ### Fork the Repo
@@ -61,14 +61,14 @@ Your relevant part of your file should look like this:
 
 The best way for you to test path creation is to see your changes in real time on Outlearn. This section will show you how to do that.
 
-[Click here to create an Outlearn account](https://demo.outlearn.com/auth/join)
+[Click here to create an Outlearn account](https://pilot.outlearn.com/auth/join)
 using your GitHub credentials. Click "Join With GitHub" so that Outlearn can access and publish your GitHub content. GitHub will ask for your permission using a popup like the one below.
 
 ![GitHub sign-in popup](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/authorize.png)
 
 <!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Create an Outlearn account\"}"-->
 
-Choose [Import Content](https://demo.outlearn.com/import/github)
+Choose [Import Content](https://pilot.outlearn.com/import/github)
 from the menu in the top right corner under the user icon.
 
 ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/import.png)
@@ -111,7 +111,7 @@ We wanted to have an authoring experience that integrates seamlessly with GitHub
 
 By now you are probably itching to get to publish something you actually wrote. Go ahead and edit the file `welcome.md` in the `pages` directory. You can replace everything there with your very own "Hello World" message, or something else that inspires you! The pages are written in markdown so feel free to try out some formatting as well.
 
-Now go back to the [Import Content](https://demo.outlearn.com/import/github) section on Outlearn, click on the nickname and then click "Re-Import". If you still have your path open, refresh your browser and you can see your edits. Or navigate to it same way as above. Houston, we have a lift-off!
+Now go back to the [Import Content](https://pilot.outlearn.com/import/github) section on Outlearn, click on the nickname and then click "Re-Import". If you still have your path open, refresh your browser and you can see your edits. Or navigate to it same way as above. Houston, we have a lift-off!
 
 Now you know how to get a Hello World path up in less than 5-minutes. Hopefully you've seen enough of the power of Outlearn paths to keep reading the rest of this module to put some real content into your path.
 
