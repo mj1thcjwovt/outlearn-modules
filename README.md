@@ -55,7 +55,7 @@ Your relevant part of your file should look like this:
 ],
 ```
 
-<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Update path metadata and push the changes to GitHub.\"}"-->
+<!-- @task, "content" : "Update path metadata and push the changes to GitHub."-->
 
 <!-- @section -->
 
@@ -68,7 +68,7 @@ using your GitHub credentials. Click "Join With GitHub" so that Outlearn can acc
 
 ![GitHub sign-in popup](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/authorize.png)
 
-<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Create an Outlearn account\"}"-->
+<!-- @task, "content" : "Create an Outlearn account."-->
 
 Choose [Import Content](https://pilot.outlearn.com/import/github)
 from the menu in the top right corner under the user icon.
@@ -81,7 +81,7 @@ as the repository. Write a nickname such as
 
 ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/choose-repo.png)
 
-<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Import your repository\"}"-->
+<!-- @task, "content" : "Import your repository."-->
 
 You should now see the nickname of your integration
 under your GitHub Integrations. Click on the the name,
@@ -156,7 +156,7 @@ The body of your `outlearn.json` will now look like this:
 ],
 ```
 
-<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Add your first module into the path.\"}"-->
+<!-- @task, "content" : "Add your first module into the path."-->
 
 ### Including Images and Videos
 
