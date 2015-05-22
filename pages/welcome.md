@@ -14,5 +14,5 @@ Make sure to set the right expectations about time and effort as well. Reviewing
 
 No matter what kind of a role you are in, you are most likely teaching people. That includes on-boarding a new colleague, mentoring a junior developer, managing a team, or spreading the word about an open source project. We bet that we can make it easier for you to do some of that teaching. Why not give it a try.
 
-Cheers,
-Outlearn Team
+Cheers,  
+The Outlearn Team

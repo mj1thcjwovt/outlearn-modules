@@ -12,7 +12,7 @@
 
 <!-- @section, "title": "How to Use Markdown" -->
 
-You may have already used Markdown. It's an awesome format for technical publishing. If you need a refresher, GitHub has a great help-page.
+You may have already used Markdown. It's an awesome format for technical publishing. If you need a refresher, GitHub has a great overview.
 
 <!-- @link, "url" : "https://help.github.com/articles/markdown-basics/", "task": "I know enough about Markdown." -->
 
@@ -29,9 +29,3 @@ If you want to get your audience to practice what you preach, give them a task.
 And if they are making something worth sharing, why not let them share it with you?
 
 <!-- @task, "content" : "Write a haiku about your favorite compiler", "deliverable" : "Post your poem here."-->
-
-<!-- @section -->
-
-# Tell Me How You Really Feel
-
-At the end of a module, Outlearn asks learners how confident they are in the things you taught them. It gives them a chance to think about their learning which usually makes the learning stick better. And it gives great feedback on how well your module is doing.
