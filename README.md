@@ -100,9 +100,9 @@ Congratulations!
 
 ### Pages and Modules
 
-Now that you've laid out what your path is all about, it's time to get some content in it. Paths are made up of two basic components: pages and modules. The modules are the building blocks of a path. You might write them all yourself or you can include modules written by others. An ideal module is self-contained so that it can be easily reused and reordered for other paths.
+Now that you've laid out what your Path is all about, it's time to get some content in it. Paths are made up of two basic components: _Pages_ and _Modules_. The Modules are the building blocks of a Path. You might write them all yourself or you can include Modules written by others. An ideal Module provides good stand-alone learning value, making it a good candidate to be reused effectively in many Paths.
 
-To balance out the independence of the modules, you can put in pages. Pages are the glue that holds the modules together. They let you add in more of your own personality. Pages are specific to a path so you can talk about why you chose the modules you did, how they fit together, what parts are super important, etc.
+To help make sense of the Modules in your Path, you can put in interstitial Pages. Pages are the glue that holds the Modules together. They let you add in more of your own personality and context for the surrounding Modules. Pages are specific to a path so you can talk about why you chose the Modules you did, how they fit together, what parts are super important, and relate the content to concepts your specific audience already understands.
 
 
 ### Outlearn Uses Markdown
@@ -115,7 +115,9 @@ By now you are probably itching to get to publish something you actually wrote. 
 
 Now go back to the [Import Content](https://pilot.outlearn.com/import/github) section on Outlearn, click on the nickname and then click "Re-Import". If you still have your path open, refresh your browser and you can see your edits. Or navigate to it same way as above. Houston, we have a lift-off!
 
-Now you know how to get a Hello World path up in less than 5-minutes. Hopefully you've seen enough of the power of Outlearn paths to keep reading the rest of this module to put some real content into your path.
+> **Note**: don't forget to push your committed changes to GitHub before re-importing to Outlearn.  And if you selected the `autoimport` option for this Content Source, you can just refresh the page and you'll see change momentarily without manually re-importing.
+
+Now you know how to get a "Hello World" Path up in less than 5-minutes. Hopefully you've seen enough of the power of Outlearn Paths to keep reading the rest of this Module to put some real content into your Path.
 
 <!-- @section -->
 
@@ -123,14 +125,14 @@ Now you know how to get a Hello World path up in less than 5-minutes. Hopefully 
 
 ### Organize Your Path
 
-The meat of the path is in the modules. Once you have written some new markdown or repurposed older content, this is how you make it part of your path:
+The meat of the Path is in the Modules. Once you have written some new Markdown or repurposed older content, this is how you make it part of your Path:
 
 * Open the `my-outlearn-module.md` file in the `modules` directory.
-* Update the metadata at the beginning of the file, including a new name for the module, e.g. `awesome-first-module`.
-* Add your markdown content to the file under the first section.
-* Save your file with a new name. We recommend using the module name also as the file name, e.g. `awesome-first-module.md`.
-* Edit `outlearn.json` and replace `{"module" : "my-outlearn-module"}` with `{"module" : "awesome-first-module"}`. This tells the path where the module belongs.  
-* Declare the module in the `modules` section in `outlearn.json` by replacing `"olm" : "./modules/my-outlearn-module.md"` with `"olm" : "./modules/awesome-first-module.md"`. This tells Outlearn where the source file for the module is.
+* Update the metadata at the beginning of the file, including a new name for the Module, e.g. `awesome-first-module`.
+* Add your Markdown content to the file under the first section.
+* Save your file with a new name. We recommend using the Module name also as the file name, e.g. `awesome-first-module.md`.
+* Edit `outlearn.json` and replace `{"module" : "my-outlearn-module"}` with `{"module" : "awesome-first-module"}`. This tells the Path how to reference the new Module.
+* Declare the Module in the `modules` section in `outlearn.json` by replacing `"olm" : "./modules/my-outlearn-module.md"` with `"olm" : "./modules/awesome-first-module.md"`. This tells Outlearn where the source file for the Module is.
 
 The body of your `outlearn.json` will now look like this:
 
@@ -160,7 +162,7 @@ The body of your `outlearn.json` will now look like this:
 
 ### Including Images and Videos
 
-Outlearn supports the regular markdown syntax for including images. However, you will get nicer rendering and better progress tracking using our own annotation. The Outlearn image annotation looks like this:
+Outlearn supports the regular markdown syntax for including images. However, you will get nicer rendering and better progress tracking using our enriched asset format. The Outlearn image annotation looks like this:
 
 ```markdown
 
@@ -182,11 +184,13 @@ You can add videos with the following annotations:
 
 <!-- @section -->
 
-## Enhance Your Content
+## Enrich Your Content
+
+Outlearn provides a number of annotations in Markdown that act like magic dust.  When you include them, we can create a more interactive and trackable experience for your content.  These annotations are all HTML comments, which means they degrade gracefully when you content is rendered elsewhere (like in a GitHub README.md file).
 
 ### Adding Sections
 
-The simplest way to enhance your content is to divide it into sections. Each module can have one or more sections. A list of sections shows up on tge right side of the content and serves as a navigable table of contents. Sections can also be checked off as completed in order to help learners and path creators to keep track of progress.
+The simplest way to enrich your content is to divide it into sections. Each module can have one or more sections. A list of sections shows up on tge right side of the content and serves as a navigable table of contents. Sections can also be checked off as completed in order to help learners and path creators to keep track of progress.
 
 You create a section by adding the following annotation:
 
@@ -229,8 +233,15 @@ For an external link that gets unfurled inside the platform:
 
 ### Add Cover Images
 
-Each module in the path can have a cover image that's a visual representation of the path or module. You add them in the header with a line:
+Each module in the path can have a cover image that's a visual representation of the path or module.  Really it's just there to make your content stand out as more attractive, we'll provide a default pattern if you don't add a custom image. You add them in the header with a line:
 
 ```markdown
 "coverImage" : "http://www.publicdomainpictures.net/pictures/70000/velka/abstract-party-lights.jpg",
 ```
+
+<!-- @section, "title": "Wrapping Up" -->
+
+A couple items to finish up:
+
+* You can delete or repurpose this `README.md` file once you're done with it.
+* Feel free to use the forked copy of outlearn-modules as a basis for all your content, or author your own learning repositories from scratch, GitHub import is supported for all compatible repos.
