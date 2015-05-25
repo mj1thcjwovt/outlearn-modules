@@ -4,7 +4,7 @@
 "version" : "0.1",
 "title" : "Outlearn Hello World",
 "description" : "Get Started with Your Path in 5 Minutes",
-"homepage" : "https://github.com/outlearn-content/outlearn-modules",
+"homeM" : "https://github.com/outlearn-content/outlearn-modules",
 "coverImage" : "http://www.publicdomainpictures.net/pictures/70000/velka/abstract-party-lights.jpg",
 "freshnessDate" : 2015-05-18,
 "author" : "Teppo Jouttenus",
@@ -28,14 +28,14 @@ We know you are busy and would rather focus on writing awesome content than sett
 
 <!-- @task, "content" : "Fork the outlearn-modules repository."-->
 
-Once you have forked the repository, open up `outlearn.json` found at the root of the repo. Update the following path metadata fields in the file:
+Once you have forked the repository, open up `outlearn.json` found at the root of the repo. Update the following Path metadata fields in the file:
 
 
 | Field | Description                                            |
 | ----- | ------------------------------------------------------ |
 | name  | used for the database, must be unique for your user account or organization |
-| title | shown at the top of path cards                         |
-| description | shown on the path card as additional information |
+| title | shown at the top of Path cards                         |
+| description | shown on the Path card as additional information |
 
 Your relevant part of your file should look like this:
 
@@ -55,13 +55,13 @@ Your relevant part of your file should look like this:
 ],
 ```
 
-<!-- @task, "content" : "Update path metadata and push the changes to GitHub."-->
+<!-- @task, "content" : "Update Path metadata and push the changes to GitHub."-->
 
 <!-- @section -->
 
 ## Create an Outlearn Account and Publish Your Path
 
-The best way for you to test path creation is to see your changes in real time on Outlearn. This section will show you how to do that.
+The best way for you to test Path creation is to see your changes in real time on Outlearn. This section will show you how to do that.
 
 [Click here to create an Outlearn account](https://pilot.outlearn.com/auth/join)
 using your GitHub credentials. Click "Join With GitHub" so that Outlearn can access and publish your GitHub content. GitHub will ask for your permission using a popup like the one below.
@@ -86,8 +86,8 @@ as the repository. Write a nickname such as
 You should now see the nickname of your integration
 under your GitHub Integrations. Click on the the name,
 then click on the green check under Import History. You
-will see the imported paths and modules. Click on the
-path and you will see your first very own Outlearn path.
+will see the imported Paths and Modules. Click on the
+Path and you will see your first very own Outlearn Path.
 Congratulations!
 
 ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/import-history.png)
@@ -102,7 +102,7 @@ Congratulations!
 
 Now that you've laid out what your Path is all about, it's time to get some content in it. Paths are made up of two basic components: _Pages_ and _Modules_. The Modules are the building blocks of a Path. You might write them all yourself or you can include Modules written by others. An ideal Module provides good stand-alone learning value, making it a good candidate to be reused effectively in many Paths.
 
-To help make sense of the Modules in your Path, you can put in interstitial Pages. Pages are the glue that holds the Modules together. They let you add in more of your own personality and context for the surrounding Modules. Pages are specific to a path so you can talk about why you chose the Modules you did, how they fit together, what parts are super important, and relate the content to concepts your specific audience already understands.
+To help make sense of the Modules in your Path, you can put in interstitial Pages. Pages are the glue that holds the Modules together. They let you add in more of your own personality and context for the surrounding Modules. Pages are specific to a Path so you can talk about why you chose the Modules you did, how they fit together, what parts are super important, and relate the content to concepts your specific audience already understands.
 
 
 ### Outlearn Uses Markdown
@@ -111,11 +111,11 @@ We wanted to have an authoring experience that integrates seamlessly with GitHub
 
 ### Your First Content Edits
 
-By now you are probably itching to get to publish something you actually wrote. Go ahead and edit the file `welcome.md` in the `pages` directory. You can replace everything there with your very own "Hello World" message, or something else that inspires you! The pages are written in markdown so feel free to try out some formatting as well.
+By now you are probably itching to get to publish something you actually wrote. Go ahead and edit the file `welcome.md` in the `pages` directory. You can replace everything there with your very own "Hello World" message, or something else that inspires you! The Pages are written in Markdown so feel free to try out some formatting as well.
 
-Now go back to the [Import Content](https://pilot.outlearn.com/import/github) section on Outlearn, click on the nickname and then click "Re-Import". If you still have your path open, refresh your browser and you can see your edits. Or navigate to it same way as above. Houston, we have a lift-off!
+Now go back to the [Import Content](https://pilot.outlearn.com/import/github) section on Outlearn, click on the nickname and then click "Re-Import". If you still have your Path open, refresh your browser and you can see your edits. Or navigate to it same way as above. Houston, we have a lift-off!
 
-> **Note**: don't forget to push your committed changes to GitHub before re-importing to Outlearn.  And if you selected the `autoimport` option for this Content Source, you can just refresh the page and you'll see change momentarily without manually re-importing.
+> **Note**: don't forget to push your committed changes to GitHub before re-importing to Outlearn.  And if you selected the `autoimport` option for this Content Source, you can just refresh the Page and you'll see change momentarily without manually re-importing.
 
 Now you know how to get a "Hello World" Path up in less than 5-minutes. Hopefully you've seen enough of the power of Outlearn Paths to keep reading the rest of this Module to put some real content into your Path.
 
@@ -141,7 +141,7 @@ The body of your `outlearn.json` will now look like this:
   {
     "name" : "your-new-path-name",
     "title" : "The Name You Just Chose",
-    "description" : "More explanation about your the glorious purpose of your path",
+    "description" : "More explanation about your the glorious purpose of your Path",
     "privacy" : "public",
     "pages" : [
       {"page" : "./pages/welcome.md"},
@@ -158,11 +158,11 @@ The body of your `outlearn.json` will now look like this:
 ],
 ```
 
-<!-- @task, "content" : "Add your first module into the path."-->
+<!-- @task, "content" : "Add your first Module into the Path."-->
 
 ### Including Images and Videos
 
-Outlearn supports the regular markdown syntax for including images. However, you will get nicer rendering and better progress tracking using our enriched asset format. The Outlearn image annotation looks like this:
+Outlearn supports the regular Markdown syntax for including images. However, you will get nicer rendering and better progress tracking using our enriched asset format. The Outlearn image annotation looks like this:
 
 ```markdown
 
@@ -190,7 +190,7 @@ Outlearn provides a number of annotations in Markdown that act like magic dust. 
 
 ### Adding Sections
 
-The simplest way to enrich your content is to divide it into sections. Each module can have one or more sections. A list of sections shows up on tge right side of the content and serves as a navigable table of contents. Sections can also be checked off as completed in order to help learners and path creators to keep track of progress.
+The simplest way to enrich your content is to divide it into sections. Each Module can have one or more sections. A list of sections shows up on tge right side of the content and serves as a navigable table of contents. Sections can also be checked off as completed in order to help learners and Path creators to keep track of progress.
 
 You create a section by adding the following annotation:
 
@@ -206,7 +206,7 @@ Alternatively, you can leave out the "title" attribute and the platform will tak
 ## Getting Started
 ```
 
-This can be especially helpful when you just want to add sections quickly to an existing markdown file and it also makes the file render more nicely on GitHub.
+This can be especially helpful when you just want to add sections quickly to an existing Markdown file and it also makes the file render more nicely on GitHub.
 
 
 ### Add Tasks, Links
@@ -233,7 +233,7 @@ For an external link that gets unfurled inside the platform:
 
 ### Add Cover Images
 
-Each module in the path can have a cover image that's a visual representation of the path or module.  Really it's just there to make your content stand out as more attractive, we'll provide a default pattern if you don't add a custom image. You add them in the header with a line:
+Each Module in the Path can have a cover image that's a visual representation of the Path or Module.  Really it's just there to make your content stand out as more attractive, we'll provide a default pattern if you don't add a custom image. You add them in the header with a line:
 
 ```markdown
 "coverImage" : "http://www.publicdomainpictures.net/pictures/70000/velka/abstract-party-lights.jpg",
