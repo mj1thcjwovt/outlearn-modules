@@ -18,9 +18,6 @@
   "modules" : [
     {
       "olm" : "./modules/my-outlearn-module.md"
-    },
-    {
-      "olm" : "./README.md"
     }
   ],
 
