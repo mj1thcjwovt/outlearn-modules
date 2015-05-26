@@ -26,7 +26,7 @@ If you are viewing this on GitHub and want to get the full experience, check out
 
 We know you are busy and would rather focus on writing awesome content than setting up directory structures and choosing naming conventions. Never worry, you'll be all set with our [outlearn-modules](https://github.com/outlearn-content/outlearn-modules) GitHub repository. Your first step is to fork this repo. If you need a refresher on forking, check out GitHub's guide on [forking projects](https://guides.github.com/activities/forking/). They also have other handy [guides](https://guides.github.com).
 
-<!-- @task, "content" : "Fork the outlearn-modules repository."-->
+<!-- @task, "text" : "Fork the outlearn-modules repository."-->
 
 Once you have forked the repository, open up `outlearn.json` found at the root of the repo. Update the following Path metadata fields in the file:
 
@@ -55,7 +55,7 @@ Your relevant part of your file should look like this:
 ],
 ```
 
-<!-- @task, "content" : "Update Path metadata and push the changes to GitHub."-->
+<!-- @task, "text" : "Update Path metadata and push the changes to GitHub."-->
 
 <!-- @section -->
 
@@ -68,7 +68,7 @@ using your GitHub credentials. Click "Join With GitHub" so that Outlearn can acc
 
 ![GitHub sign-in popup](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/authorize.png)
 
-<!-- @task, "content" : "Create an Outlearn account."-->
+<!-- @task, "text" : "Create an Outlearn account."-->
 
 Choose [Import Content](https://pilot.outlearn.com/import/github)
 from the menu in the top right corner under the user icon.
@@ -81,7 +81,7 @@ as the repository. Write a nickname such as
 
 ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-publishing/master/images/choose-repo.png)
 
-<!-- @task, "content" : "Import your repository."-->
+<!-- @task, "text" : "Import your repository."-->
 
 You should now see the nickname of your integration
 under your GitHub Integrations. Click on the the name,
@@ -158,7 +158,7 @@ The body of your `outlearn.json` will now look like this:
 ],
 ```
 
-<!-- @task, "content" : "Add your first Module into the Path."-->
+<!-- @task, "text" : "Add your first Module into the Path."-->
 
 ### Including Images and Videos
 
@@ -228,7 +228,7 @@ If you also want to add a deliverable:
 For an external link that gets unfurled inside the platform:
 
 ```markdown
-< !-- @link, "url" : "https://nodejs.org/", "task": "Install NodeJS" -->
+< !-- @link, "url" : "https://nodejs.org/", "text": "Install NodeJS" -->
 ```
 
 ### Add Cover Images
