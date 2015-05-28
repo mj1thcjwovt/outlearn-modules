@@ -48,6 +48,6 @@ If you want to get your audience to practice what you preach, give them a task.
 
 And if they are making something worth sharing, why not let them share it with you?
 
-<!-- @task, "text" : "Write a haiku about your favorite compiler", "deliverable" : "Post your poem here."-->
+<!-- @task, "hasDeliverable" : true, "text" : "Write and submit a haiku about your favorite compiler."-->
 
 If you need more details on how to author, please visit the [Outlearn Publishing Guide](https://pilot.outlearn.com/learn/outlearn/outlearn-publishing), where you'll find more examples along with the full specification for the format used by this sample module.
