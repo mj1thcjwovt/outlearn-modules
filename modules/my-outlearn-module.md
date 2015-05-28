@@ -20,7 +20,7 @@ This is a placeholder Learning Module for you to customize.  Look in the `my-out
 
 You may have already used Markdown. It's an awesome format for technical publishing. If you need a refresher, GitHub has a great overview.
 
-<!-- @link, "url" : "https://help.github.com/articles/markdown-basics/", "task": "I know enough about Markdown." -->
+<!-- @link, "url" : "https://help.github.com/articles/markdown-basics/", "text": "I know enough about Markdown." -->
 
 GitHub-flavored markdown will work just fine, and you can preview your files in your favorite text editor or Markdown preview tool before uploading them to Outlearn for final proof-reading.
 
@@ -44,10 +44,10 @@ If you want to get your audience to practice what you preach, give them a task.
 [(3, 1, 4), (1, 5, 9), (2, 6, 5), (3, 5, 8)]
 ```
 
-<!-- @task, "content" : "Go and run these clever code examples on your own machine, lazy bones!"-->
+<!-- @task, "text" : "Go and run these clever code examples on your own machine, lazy bones!"-->
 
 And if they are making something worth sharing, why not let them share it with you?
 
-<!-- @task, "content" : "Write a haiku about your favorite compiler", "deliverable" : "Post your poem here."-->
+<!-- @task, "text" : "Write a haiku about your favorite compiler", "deliverable" : "Post your poem here."-->
 
 If you need more details on how to author, please visit the [Outlearn Publishing Guide](https://pilot.outlearn.com/learn/outlearn/outlearn-publishing), where you'll find more examples along with the full specification for the format used by this sample module.
